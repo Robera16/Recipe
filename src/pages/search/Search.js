@@ -6,7 +6,7 @@ import './Search.css'
 
 // components
 import RecipeList from '../../components/RecipeList'
-
+ 
 export default function Search() {
   // get query string ?q=veggie
   const queryString = useLocation().search
