@@ -12,6 +12,7 @@ export default function Home() {
   const [data, setData] = useState(null)
   const [isPending, setIsPending] = useState(false)
   const [error, setError] = useState(null)
+  
   useEffect(() => {
     setIsPending(true)
     projectFirestore.collection('recipes').get()
