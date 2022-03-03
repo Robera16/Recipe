@@ -22,7 +22,7 @@ Provider for ThemeContext which provide value of the context to all the children
     export function ThemeProvider({ children }) {
     const [state, dispatch] = useReducer(themeReducer, {
         color: '#58249c',
-        mode: 'dark'
+        mode: 'light'
     })
 
     const changeColor  = (color) => {
